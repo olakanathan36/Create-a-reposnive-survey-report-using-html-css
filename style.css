@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 142, 230);
+}
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.head1{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin: 6px;
+}
+.head1 i{
+    font-size: 30px;
+}
+.content{
+    font-size: 18px;
+    border: 5px inset rgb(176, 61, 145);
+    padding: 20px;
+}
+input{
+    height: 25px;
+}
+input:focus{
+    background-color: bisque;
+}
+#email{
+    width: 86%;
+}
+label{
+    font-weight: 600;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.con1{
+    display: flex;
+}
+.lastname{
+    margin-left: 25px;
+}
+.rating_con{
+    margin-top: 0;
+    display: flex;
+}
+.con_right{
+    margin-left: 20px;
+}
+span input{
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+}
+i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.star{
+    color: goldenrod;
+}
+button{
+    font-weight: 600;
+    height: 35px;
+    width: 100%;
+    background-color: rgb(97, 186, 228);
+}
+button:hover{
+    background-color: rgb(6, 130, 6);
+}
